@@ -5,7 +5,7 @@ import { ChevronLeft, Icon, Lock, LogOut, Save, Shield, UserCircle } from "lucid
 import { data, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = 'http://localhost:4000'
+const API_URL = 'https://trackly-backend-zfv8.onrender.com'
 
 const Profile = ({ setCurrentUser, onLogout }) => {
 

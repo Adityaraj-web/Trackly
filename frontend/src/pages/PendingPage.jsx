@@ -5,7 +5,7 @@ import { useOutletContext } from "react-router-dom";
 import TaskItem from "../components/TaskItem";
 import TaskModal from "../components/TaskModal";
 
-const API_BASE = 'http://localhost:4000/api/tasks'
+const API_BASE = 'https://trackly-backend-zfv8.onrender.com/api/tasks'
 
 const PendingPage = () => {
 

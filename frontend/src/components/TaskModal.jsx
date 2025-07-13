@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { baseControlClasses, DEFAULT_TASK, priorityStyles } from "../assets/dummy";
 import { AlignLeft, Calendar, Check, CheckCircle, Flag, PlusCircle, Save, X } from "lucide-react";
 
-const API_BASE = 'http://localhost:4000/api/tasks'
+const API_BASE = 'https://trackly-backend-zfv8.onrender.com/api/tasks'
 
 const TaskModal = ({isOpen, onClose, taskToEdit, onSave, onLogout}) => {
 
